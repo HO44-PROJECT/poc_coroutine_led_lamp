@@ -15,7 +15,7 @@
 #include <AceRoutine.h>
 using namespace ace_routine;
 
-#define POV_MICROS 10000U               // ms. The maximum time between two effects during which the eye will not detect any change
+#define POV_MICROS 10000U               // us. The maximum time between two effects during which the eye will not detect any change
 #define LIGHT_UP_CHANGE_TIME_MS 2000U   // ms. The time given to light up
 #define TURN_OFF_CHANGE_TIME_MS 300U    // ms. The time given to turn off
 
